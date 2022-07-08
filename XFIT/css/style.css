@@ -1,0 +1,444 @@
+html
+{
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    background-image: url(fon.png);
+}
+
+.main
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(48, 75, 22, 0.8);
+    /*opacity: 1;*/
+    /*filter: sepia(1);*/
+    mix-blend-mode: multiply;
+}
+
+.layer
+{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    left: 30%;
+    top: 5%;
+    /*opacity: 0.3;*/
+    /*background: url(2.jpg);*/
+    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+}
+
+.image_sport_main
+{
+    position: absolute;
+    width: 30%;
+    height: 15%;
+    left: -0.1%;
+    top: 5%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 155%;
+
+    text-transform: uppercase;
+
+    opacity: 0.6;
+    color: rgba(127, 222, 40, 0.5);
+    /*-webkit-text-stroke-width: 10%;
+    -webkit-text-stroke-color: rgba(127, 222, 40, 0.5);*/
+
+    /*border: 1px solid #7FDE28;*/
+}
+
+.xfit
+{
+    position: relative;
+    left: 18.96%;
+    /*right: 75.37%;*/
+    top: 3.23%;
+    bottom: 94%;
+    width: 6.5%;
+    height: 3%;
+}
+
+.address
+{
+    position: absolute;
+    width: 15%;
+    height: 3%;
+    left: 30%;
+    top: 1.23%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 300;
+    /*font-size: 110%;*/
+    font-size: 1vw;
+    line-height: 140%;
+
+    /*display: flex;*/
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.phone_number
+{
+    position: absolute;
+    width: 15%;
+    height: 3%;
+    left: 50%;
+    top: 1.23%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 24px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.text_cost
+{
+    position: relative;
+    width: 35%;
+    height: 8%;
+    /*left: 18.96%;
+    top: 30%;*/
+    margin: 3% 0% 0% 18.96%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 120.5%;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.green_text_cost
+{
+    color: #7FDE28;
+}
+
+/*----------------------------------------------Блок заявки--------------------------------------------*/
+
+.application_block
+{
+    position: relative;
+    width: 20%;
+    height: 15%;
+    margin: 0% 0% 0% 18.96%;
+}
+
+.application_block_interior
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/*.testclass:hover .application_block_interior
+{
+    display: none;
+}*/
+
+.text_term
+{
+    position: relative;
+    width: 70%;
+    height: 30%;
+    margin: 1% 0% 0% 1%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 350;
+    font-size: 1vw;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.rectangle_box
+{
+    position: relative;
+    width: /*40%;*/19vw;
+    height: /*100%;*/2.5vw;
+    margin: 1% 0% 1% 0%;
+}
+
+.rectangle_a
+{
+    position: absolute;
+    width: /*90%;*/10vw;
+    height: /*90%;*/1.5vw;
+    margin: 3% 0% 1% 1%;
+
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #FFFFFF;
+    border-radius: 37px;
+}
+
+.text_in_rectangle_a
+{
+    position: relative;;
+    width: 90%;
+    height: 90%;
+    margin: 0% 0% 1% 8%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 0.6vw;
+    line-height: 30px;
+    text-align: center;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.textbox_in_rectangle_a
+{
+    font-style: italic;
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 0px;
+    border-style: none;
+    color: white;
+}
+
+.rectangle_b
+{
+    position: absolute;
+    width: /*90%;*/10vw;
+    height: /*90%;*/1.6vw;
+    margin: 3% 0% 1% 35%;
+
+    background: rgba(127, 222, 40, 1);
+    border: 1px solid #7FDE28;
+    border-radius: 37px;
+}
+
+.text_in_rectangle_b
+{
+    position: relative;
+    width: 70%;
+    height: 40%;
+    margin: 0% 0% 30% 15%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1vw;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.link_in_rectangle_b
+{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.application_checkbox
+{
+    position: relative;
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 0.6vw;
+    line-height: 30px;
+    text-align: center;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.successful
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+/*.testclass:hover .successful
+{
+    display: block;
+}*/
+
+.successful_text_1
+{
+    position: relative;
+    width: 70%;
+    height: 30%;
+    margin: 1% 0% 0% 1%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 350;
+    font-size: 1vw;
+    line-height: 30px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+/*--------------------------------------------Конец блока заявки----------------------------------*/
+
+.img_middle_1
+{
+    position: relative;
+    left: 18.96%;
+    margin-top: 3%;
+}
+
+.сaption_for_the_img_middle_1
+{
+    position: relative;
+    width: 4%;
+    height: 1%;
+    margin-top: 0%;
+    margin-left: 18.96%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.7vw;
+    line-height: 100%;
+    display: flex;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.img_middle_2
+{
+    position: relative;
+    display: inline;
+    left: 22.96%;
+}
+
+.сaption_for_the_img_middle_2
+{
+    position: relative;
+    display: inline;
+    width: 4%;
+    height: 1%;
+    margin-top: -2%;
+    margin-left: 27.9%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.7vw;
+    line-height: 100%;
+    display: flex;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.img_middle_3
+{
+    position: relative;
+    display: inline;
+    left: 26.96%;
+}
+
+.сaption_for_the_img_middle_3
+{
+    position: relative;
+    display: inline;
+    width: 4%;
+    height: 1%;
+    margin-top: -2.8%;
+    margin-left: 34.30%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.7vw;
+    line-height: 100%;
+    display: flex;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.img_middle_4
+{
+    position: relative;
+    display: inline;
+    left: 30.96%;
+}
+
+.сaption_for_the_img_middle_4
+{
+    position: relative;
+    display: inline;
+    width: 4%;
+    height: 1%;
+    margin-top: -2.2%;
+    margin-left: 40.56%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 0.7vw;
+    line-height: 100%;
+    display: flex;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.rectangle_prise
+{
+    position: relative;
+    width: 25%;
+    height: 10vw;
+    margin-left: 18.96%;
+    margin-top: 3.5%;
+
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0.3;
+    /* White */
+
+    border: 5px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.prise_and_card
+{
+
+}
+
+.text_in_rectangle_prise
+{
+    position: relative;
+    width: 35%;
+    height: 8%;
+    /*left: 18.96%;
+    top: 30%;*/
+    margin: 3% 0% 0% 18.96%;
+
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 120.5%;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
